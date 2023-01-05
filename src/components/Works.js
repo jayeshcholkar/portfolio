@@ -28,7 +28,7 @@ const Works = () => {
                 Weather Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/"
+                <a href="https://virtualweather.netlify.app/"
                 target="_blank"
               rel="noopener noreferrer">
                   <button className="text-center rounded-full px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
