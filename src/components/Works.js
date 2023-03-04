@@ -1,9 +1,10 @@
 import React from "react";
 import weather from "../photos/weather.png";
 import movie from "../photos/movie.png";
-import ecommerce from "../photos/ecommerce.jpg";
+import ecommerce from "../photos/Ecommercer.png";
 import landing from "../photos/landing.jpg";
 import todoo from "../photos/todoo.png";
+import news from "../photos/news.png";
 
 const Works = () => {
   return (
@@ -84,10 +85,10 @@ const Works = () => {
             {/* hoverEffect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                E-Commerce Application
+                E-Commerce App
               </span>
               <div className="pt-8 text-center">
-                <a href="/"
+                <a href="https://superwalmart.netlify.app/"
                 target="_blank"
               rel="noopener noreferrer">
                   <button className="text-center rounded-full px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -144,6 +145,34 @@ const Works = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://tectodo.netlify.app"
+                target="_blank"
+              rel="noopener noreferrer">
+                  <button className="text-center rounded-full px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/jayeshcholkar"
+                 target="_blank"
+              rel="noopener noreferrer">
+               <button className="text-center rounded-full px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* grid items */}
+          <div
+            style={{ backgroundImage: `url(${news})` }}
+            className="shadow-lg shadow-black group container rounded-md flex justify-center items-center mx-auto content-div  max-sm:h-[170px] max-sm:w-[90%]"
+          >
+            {/* hoverEffect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-center flex items-center justify-center text-2xl font-semibold text-white tracking-wider">
+                News App
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://newsbiz.netlify.app/"
                 target="_blank"
               rel="noopener noreferrer">
                   <button className="text-center rounded-full px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg">
