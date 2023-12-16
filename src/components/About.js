@@ -23,7 +23,7 @@ const About = () => {
               I am passionate about building excellent Web Applications that
               improves the lives of those around me. I specialize in creating
               responsive web apps for clients ranging from individuals and
-              small-businesses. What would you do if you had a responsive web
+              small-businesses. What would you do if you had a responsive full-stack web
               devloper available at your fingertips?
             </p>
           </div>

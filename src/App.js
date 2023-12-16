@@ -7,7 +7,7 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div >
+    <div>
      <Navbar />
      <Hero />
      <About />

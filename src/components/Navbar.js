@@ -60,33 +60,31 @@ const Navbar = () => {
         )}
       </div>
       <ul
-        className={
-          !Nav
-            ? "hidden"
-            : "absolute flex flex-col w-full h-screen bg-[#1f1f1f] top-0 right-0 items-center justify-center "
-        }
+        className={`fixed top-12 right-0 h-screen bg-[#1f1f1f] w-1/2 transform ${
+          Nav ? "translate-x-0" : "translate-x-full"
+        } transition-transform duration-300 ease-in-out`}
       >
-        <li className="py-4 text-2xl">
+        <li className="py-4 text-2xl text-center">
           <Link onClick={handleNav} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-4 text-2xl">
+        <li className="py-4 text-2xl text-center ">
           <Link onClick={handleNav} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-4 text-2xl">
+        <li className="py-4 text-2xl text-center ">
           <Link onClick={handleNav} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-4 text-2xl">
+        <li className="py-4 text-2xl text-center ">
           <Link onClick={handleNav} to="works" smooth={true} duration={500}>
             Work
           </Link>
         </li>
-        <li className="py-4 text-2xl">
+        <li className="py-4 text-2xl text-center ">
           <Link onClick={handleNav} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -120,7 +118,6 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:jaycholker@gmail.com"
-              
             >
               E-mail
               <MdMailOutline size={30} />
@@ -131,7 +128,6 @@ const Navbar = () => {
               className="flex justify-between items-center w-full text-gray-300"
               href="/jayeshcholker.pdf"
               download={true}
-              
             >
               Resume <AiOutlineProfile size={30} />
             </a>
